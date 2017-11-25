@@ -15,7 +15,7 @@ var bio = {
 		"location":"Cairo , Egypt"
 	},
 	"welcomeMessage":"Welcome to my awesome resume, here you will get more information about me. ",
-	"skills":["HTML ","CSS ","JavaScript ","jQuery"],
+	"skills":["HTML ","CSS ","JavaScript ","jQuery","Git"],
 	"biopic":"images/me.JPG"
 };
 
@@ -109,7 +109,7 @@ bio.display = function(){
 	
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
-var formattedContact = HTMLcontactGeneric.replace("%contact%", "contacts");
+var formattedContact = HTMLcontactGeneric.replace("%contact%", "contacts:");
 var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);

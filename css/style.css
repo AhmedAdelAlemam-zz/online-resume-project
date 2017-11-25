@@ -107,6 +107,7 @@ a {
 #skills-h3 {
   color: #f5ae23;
   display: none;
+  
 }
 
 .orange {
@@ -122,6 +123,7 @@ a {
 .white-text {
   font-weight: bold;
   color: #fff;
+  
 }
 
 .gray {
@@ -166,7 +168,7 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width: 230px;
   display: none;
 }
 
@@ -225,6 +227,7 @@ span {
   #skills-h3,
   .biopic {
     display: block;
+	  
   }
 }
 
@@ -252,4 +255,18 @@ span {
 
 #projects h2 {
 	color: #0E025F;
+}
+
+button{
+	color:#00F0D6;
+	background:#484848;
+	text-transform: capitalize;
+}
+
+.color {
+	font-size: 1.7em;
+}
+
+.float{
+	display:inline-block;
 }
