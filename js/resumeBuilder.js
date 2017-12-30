@@ -1,3 +1,4 @@
+"use strict";
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
@@ -15,7 +16,7 @@ var bio = {
 		"location":"Cairo , Egypt"
 	},
 	"welcomeMessage":"Welcome to my awesome resume, here you will get more information about me. ",
-	"skills":["HTML ","CSS ","JavaScript ","jQuery","Git"],
+	"skills":["HTML","CSS","JavaScript","jQuery","Knockout.js","Backbone.js","Git","JSON","Google Maps API","MVC",],
 	"biopic":"images/me.JPG"
 };
 
